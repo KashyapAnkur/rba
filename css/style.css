@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    color: rgb(11,11,11);
+}
+
+.wrapper-main{
+    float:left;
+    width:100%;
+    height:100%;
+}
+
+.food-section{
+    float:left;
+    width:100%;
+    height:100%;
+}
+
+.sidebar{
+    background-color: grey;
+    padding:10px;
+    float:left;
+    width: 6%;
+    height:120vh;
+}
+
+.items{
+    padding:10px;
+    float:left;
+    width: 62%;
+    height:110vh;
+}
+
+.checkout{
+    padding:10px;
+    float:left;
+    width: 28%;
+    height:110vh;
+}
+
+header{
+    height:10vh;
+    text-align:center;
+    line-height:60px;
+    font-size:23px;
+}
+
+/*.............*/
+.guest-tables, .bookedtables{
+    width:200px;
+    height: 30px;
+    font-size: 18px;
+    float:left;
+}
+
+#clear{
+    cursor: pointer;
+    color:white;
+}
+
+
+
+.items-title{
+    float: left;
+    position: relative;
+}
+
+.items-menu-bar{
+    float: left;
+    position: relative;
+    width: 630px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.itemsmenubar{
+    display:none;
+    width: 200px;
+    height: 40px;
+    padding:5px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-menu-bar-active{
+    background-color: black;
+    color:white;
+}
+
+.items-dropdown-list{
+    float:left;
+    position:relative;
+    margin-top:10px;
+    width:600px;
+}
+
+#itemsdropdownlist{
+    display:none;
+    font-size:19px;
+    float:left;
+    padding:10px;
+    width: 632px;
+    height: 50px;
+}
+
+.items-list{
+    /* display:block; */
+    /* position: relative; */
+    margin-top: 140px;
+}
+
+.product-body{
+    opacity:0.4;
+    margin-top:10px;
+    margin-left:2px;
+    position: relative;
+    float: left;
+    width: 316px;
+    height: 160px;
+}
+
+.product-left{
+    float: left;
+}
+
+.product-img{
+    padding:10px;
+    padding-top:34px;
+}
+
+
+.product-right{
+    float: left;
+}
+
+
+.product-desc{
+    padding:10px;
+    padding-left:30px;
+    margin-top: 20px;
+}
+
+.product-buttons{
+    padding-left:30px;
+    padding-top:20px;
+}
+
+.decrease {
+    font-size: 23px;
+    border: 1px solid black;
+    width:40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.increase {
+    font-size: 23px;
+    border: 1px solid black;
+    width:40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.quantity {
+    font-size: 23px;
+    border: 1px solid black;
+    width:40px;
+    height:40px;
+    background-color: transparent;
+}
+
+.total-price-body{
+    margin-top:180px;
+}

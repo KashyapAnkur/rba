@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Billing</title>
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+
+    <body>
+        <div class="wrapper-main">
+            
+            <div class="food-section">
+                <div class="sidebar left">
+                    <span id="clear">Clear all</span>
+                </div>
+    
+                <header>The Great Table</header>
+                
+                <div class="items center">
+                    <div class="items-title">
+                        <select id="guestTables" class="guest-tables" name="guest-tables"></select>
+                        <select id="bookedtables" class="bookedtables" name="bookedtables" style="display:none;"></select>
+                        <strong><label id="guestname"></label>
+                    </div><br /><br />
+
+                    <div class="items-menu-bar">
+                        <section disabled="true" class="itemsmenubar items-menu-bar-drinks items-menu-bar-active">Drinks</section>
+                        <section disabled="true" class="itemsmenubar items-menu-bar-food">Food</section>
+                        <section disabled="true" class="itemsmenubar items-menu-bar-dessert">Dessert</section>
+                    </div>
+                    
+                    <div class="items-dropdown-list">
+                        <select id="itemsdropdownlist"></select>
+                    </div>
+
+                    <div class="items-list">
+
+                    </div>
+                </div>
+                
+                <div class="checkout right">
+                    <div class="cart-items" id="cartitems">
+                        
+                    </div>
+
+                    <div class="total-price-body">
+                        <table style="width:100%;" cellspacing="10">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2">Subtotal</td>
+                                    <td style="text-align:center;">$71.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Estimated Taxes</td>
+                                    <td style="text-align:center;">$12.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Discount</td>
+                                    <td style="text-align:center;">$0.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="contacts">
+
+            </div>
+
+            <div class="calendar">
+
+            </div>
+        
+        </div>
+    </body>
+</html>
+<script src="js/json-items.js"></script>
+<script src="js/script.js"></script></strong>
